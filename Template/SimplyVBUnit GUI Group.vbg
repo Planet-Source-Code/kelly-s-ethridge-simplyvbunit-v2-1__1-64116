@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=Projects\SimplyVBUnit2 GUI.vbp
+Project=..\Framework\Framework\SimplyVBUnitLib.vbp
+Project=..\GUI\SimplyVBUnitUI\SimplyVBUnitUI.vbp

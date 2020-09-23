@@ -1,0 +1,43 @@
+** SimplyVBUnit v2.1 **
+
+- Version 2.1
+	- Expanded the context menu for the TreeView
+	- Added filtering capabilities in the GUI
+	- Made the tests run in sorted order in the framework
+
+
+This version of SimplyVBUnit is a complete rewrite from scratch. There are two(2) primary components to SimplyVBUnit v2.0. They are:
+
+- SimplyVBUnitLib Framework
+- SimplyVBUnitUI GUI
+
+The framework provides the functionality of a unit-testing framework. It provides mechanisms for creating, executing, and reporting on tests and test results. The GUI is the primary visual interface used to create, execute, and report in a visual style. This is the traditional interface most programmers use.
+
+The framework is designed to allow any type of interface to manipulate the tests and receive feedback during test execution. This allows for extending testing environments without having to update the unit-testing framework.
+
+* Building The Components *
+This archive contains four(4) separate projects:
+
+- SimplyVBUnitLib Framework
+- SimplyVBUnitUI GUI
+- SimplyVBUnit GUI Project Template
+- SimplyVBUnit Debug Project Template
+
+
+In order for all of these components to work correctly, they must be compiled using the newly compiled versions of the framework and GUI components.
+
+There is a SimplyVBUnitGroup project that will load up three(3) of the components:
+
+- SimplyVBUnitLib Framework
+- SimplyVBUnitUI GUI
+- SimplyVBUnit GUI Project Template
+
+By loading all of these up and compiling them, they will all be built correctly. Saving them out will update the project template to use the correct components. After the build is complete, the SimplyVBUnit Debug Project Template should be loaded and the reference to the correct SimplyVBUnitLib framework should be made. The project should be saved once this is complete.
+
+* Template Projects *
+There are two(2) template projects included with this archive:
+
+- SimplyVBUnit GUI Project
+- SimplyVBUnit Debug Project
+
+Once all the components have been built and the template projects updated correctly, the template projects can be copied to the VB98\Template\Projects folder to allow easy access to a new SimplyVBUnit project.

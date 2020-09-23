@@ -1,0 +1,3 @@
+VBGROUP 5.0
+Project=Framework\SimplyVBUnitLib.vbp
+StartupProject=Tests\SimplyVBUnitLibTests.vbp
